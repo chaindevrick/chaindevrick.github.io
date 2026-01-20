@@ -84,7 +84,7 @@ const projects = ref([
     id: 2,
     title: 'Saori',
     icon: '🤖',
-    timeline: 'Dec 2022 - Present',
+    timeline: 'Dec 2022 - Jan 2026',
     description: 'A full-stack Discord Bot with a web management dashboard.',
     status: 'Live',
     statusType: 'success',
