@@ -97,7 +97,7 @@ const projects = ref([
     title: 'Lilith AI Agent',
     icon: '🧠',
     timeline: 'Nov 2025 - Present',
-    description: 'Self-training AI assistant with web interface featuring advanced context management.',
+    description: 'Self-training/working AI assistant with a galgame web interface and charactercard featuring advanced context management.',
     status: 'Dev',
     statusType: 'warning',
     stack: ['Vue 3', 'Node.js', 'Gemini API', 'AI Agent', 'RAG'],

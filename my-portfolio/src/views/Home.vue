@@ -28,6 +28,13 @@
               Contact Me
             </n-button>
           </n-space>
+
+          <div class="appointment-area">
+            <a href="https://calendar.app.google/9uZbm2csJMrR1p2N6" target="_blank" class="appointment-text">
+              Make an appointment ↗
+            </a>
+          </div>
+
         </div>
       </n-grid-item>
     </n-grid>
@@ -77,5 +84,23 @@ import avatarImage from '../assets/avatar.jpg';
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+}
+
+.appointment-area {
+  margin-top: 16px; /* 與上方按鈕保持一點距離 */
+}
+
+.appointment-text {
+  font-size: 0.85rem;      /* 小字體 */
+  color: #666;             /* 灰色 */
+  text-decoration: none;   /* 去除底線 */
+  transition: all 0.3s ease;
+  border-bottom: 1px dotted transparent; /* 預留底線空間 */
+}
+
+.appointment-text:hover {
+  color: #63e2b7;          /* 滑鼠移過去變亮色 (Naive Green) */
+  border-bottom-color: #63e2b7; /* 滑鼠移過去出現虛線底線 */
+  cursor: pointer;
 }
 </style>
