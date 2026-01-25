@@ -1,50 +1,54 @@
 export const blogPosts = [
   {
-    id: 1,
-    title: 'Building a Portfolio with Vue 3 & Naive UI',
-    date: '2026-01-18',
-    emoji: '🎨',
-    tags: ['Frontend', 'Vue 3'],
-    excerpt: 'How I rebuilt my personal site using Vite, removing legacy code, and deploying to GitHub Pages with Actions.',
-    // 這裡放入詳細內容，支援 HTML 標籤
+    id: '1',
+    title: '外國人如何申請 ITIN 並取得首張美國信用卡',
+    date: '2026-01-26',
+    emoji: '🇺🇸',
+    tags: ['Finance', 'ITIN', 'Credit Cards'],
+    excerpt: '人不在美國也能辦美卡？這篇文章完整記錄了我如何透過 CAA 代辦申請 ITIN，並透過雲端方式累積 FICO 信用分數，成功拿下第一張美國信用卡(Capital One)。',
     content: `
-      <p>Building a portfolio is a rite of passage for every developer. I decided to use <strong>Vue 3</strong> and <strong>Naive UI</strong> because of their clean aesthetic and composition API support.</p>
-      <h3>Why Naive UI?</h3>
-      <p>Naive UI provides over 80 components that are customizable and work seamlessly with Vue 3. The dark mode support is also fantastic out of the box.</p>
-      <h3>The Migration</h3>
-      <p>Moving from a legacy layout to this new structure involved breaking down the monolithic App.vue into smaller, reusable components like <code>Projects.vue</code> and <code>Blog.vue</code>.</p>
+      <p>對於許多非美國居民（Non-Resident Alien, NRA）來說，美國信用卡的高額開卡禮（Sub）與靈活的點數系統（MR/UR points）是信用卡界的頂配。但沒有 SSN 與美國地址，但我們還有 <strong>ITIN</strong>。</p>
+      
+      <h3>為什麼需要 ITIN？</h3>
+      <p>ITIN (Individual Taxpayer Identification Number) 是美國國稅局發給沒有資格取得 SSN、但有報稅需求人士的編號。但現在在金融系統中，ITIN也可以用來申請信用卡，建立信用記錄。</p>
+      
+      <h3>簡易版申請攻略</h3>
+      <p>「雲居民」申請路徑，完全不需要親自飛往美國：</p>
+      
+      <h4>1. 取得 ITIN </h4>
+      <p>目前最簡單的方式是找 IRS 認證的 <strong>CAA (Certifying Acceptance Agent)</strong>。雖然需要支付一筆費用（通常 $200-$300 USD），但好處顯而易見：</p>
+      <ul>
+        <li>不需要寄出護照。</li>
+        <li>CAA 會處理身份驗證。</li>
+        <li>CAA 會處理 W-7 表格。</li>
+        <li>只需要付錢等通知。</li>
+      </ul>
+
+      <h4>2. 搞定美國地址與電話</h4>
+      <p>有了 ITIN 只是第一步，銀行還需要驗證你的居住地：</p>
+      <ul>
+        <li><strong>地址 (Address)：</strong> 推薦使用 Anytime Mailbox 或租用私人地址，避免使用商業轉運倉地址（CMRA），銀行系統不予許CMRA地址，可以透過smarty.com確認地址類型。</li>
+        <li><strong>電話 (Phone)：</strong> 建議使用 Tello 或 Ultra Mobile PayGo，這些實體運營商能接收銀行簡訊驗證碼 (OTP)，現在銀行已經不予許使用 VOIP(Google Voice)。</li>
+      </ul>
+
+      <h4>3. 第一張卡的選擇</h4>
+      <p>當你拿到 ITIN 信函後， 就可以開始申請信用卡：</p>
+      <p>如果你在原本國家持有 American Express (運通卡)，可以使用 <strong>Amex Global Transfer (轉卡)</strong> 功能。這是最快建立美國信用記錄 (FICO Score) 的捷徑，通常可以直接略過信用小白期，拿到較好的額度。</p>
+      <p>如果沒有 Amex 卡，可以考慮Capital One入門卡，Capital One在申請第一張卡時，會查詢美國三家信用局，幫你在三家信用局建立信用記錄：</p>
+      <ul>
+        <li><strong>Capital One Savor ：</strong> 無年費，吃飯3%回饋，是一張適合作為第一張卡長期持有的選擇。</li>
+        <li><strong>Capital One Quicksilver Secured Card：</strong> 押金式信用卡，消費1.5%回饋，最多可以押1000$，適合第一張沒辦法申請的人。</li>
+      </ul>
+
+      <h4>4. 持續累積信用分數</h4>
+      <p>拿到第一張卡後，持續使用並按時還款。建議每月使用卡片，並控制使用率在30%以下，以最大化信用分數的提升。</p>
+
+      <h3>總結</h3>
+      <p>雖然身為非美國居民申請美國信用卡有一定的挑戰，但透過申請 ITIN 並選擇合適的信用卡，完全可以在美國建立起良好的信用記錄。希望這篇文章能幫助到有需要你們！祝大家申請順利，早日拿到夢想中的美國信用卡！
+      
+      <div style="background-color: #f0f0f0; padding: 12px; border-radius: 8px; margin-top: 20px;">
+        <small>⚠️ 免責聲明：本文純屬經驗分享，不構成稅務或投資建議。相關法規變動頻繁，請自行查核最新資訊。</small>
+      </div>
     `
   },
-  {
-    id: 2,
-    title: 'Deploying Node.js Apps to Google Cloud Run',
-    date: '2026-01-10',
-    emoji: '☁️',
-    tags: ['DevOps', 'GCP'],
-    excerpt: 'A step-by-step guide to containerizing a Node.js application and setting up CI/CD pipelines.',
-    content: `
-      <p>Cloud Run is amazing because it abstracts away the infrastructure. You just give it a container, and it runs.</p>
-      <h3>Dockerfile Best Practices</h3>
-      <pre><code>FROM node:18-alpine\nWORKDIR /app\nCOPY . .\nRUN npm ci --only=production\nCMD ["node", "server.js"]</code></pre>
-      <p>Using <code>alpine</code> images keeps the build size small and deployment fast.</p>
-    `
-  },
-  {
-    id: 3,
-    title: 'Understanding Docker Multi-stage Builds',
-    date: '2025-12-24',
-    emoji: '🐳',
-    tags: ['Docker', 'Backend'],
-    excerpt: 'Optimizing your container images size and security by separating build and runtime environments.',
-    content: `<p>Coming soon...</p>`
-  },
-  {
-    id: 4,
-    title: 'Refactoring Spaghetti Code: A Case Study',
-    date: '2025-11-15',
-    emoji: '🍝',
-    tags: ['Refactoring', 'Architecture'],
-    excerpt: 'Lessons learned from cleaning up a legacy project and implementing better design patterns.',
-    content: `<p>Coming soon...</p>`
-  }
 ];

@@ -82,18 +82,6 @@ const projects = ref([
   },
   {
     id: 2,
-    title: 'Saori',
-    icon: '🤖',
-    timeline: 'Dec 2022 - Jan 2026',
-    description: 'A full-stack Discord Bot with a web management dashboard.',
-    status: 'Live',
-    statusType: 'success',
-    stack: ['Vue 3', 'Node.js', 'Discord.js', 'MariaDB'],
-    github: 'https://github.com/rickwengdev/Saori',
-    demo: 'https://saori-483222.web.app'
-  },
-  {
-    id: 3,
     title: 'Lilith AI Agent',
     icon: '🧠',
     timeline: 'Nov 2025 - Present',
@@ -105,7 +93,7 @@ const projects = ref([
     demo: 'https://lilith-390477456083.asia-east1.run.app'
   },
   {
-    id: 4,
+    id: 3,
     title: 'Crypto Tracker',
     icon: '📈',
     timeline: 'Jan 2026 - Present',
@@ -115,6 +103,18 @@ const projects = ref([
     stack: ['Vue 3', 'Node.js', 'GCP', 'Actions'],
     github: 'https://github.com/rickwengdev/CryptoTracker',
     demo: 'https://crypto-tracker-873140096556.asia-east1.run.app'
+  },
+  {
+    id: 4,
+    title: 'Saori',
+    icon: '🤖',
+    timeline: 'Dec 2022 - Jan 2026',
+    description: 'A full-stack Discord Bot with a web management dashboard.',
+    status: 'Live',
+    statusType: 'success',
+    stack: ['Vue 3', 'Node.js', 'Discord.js', 'MariaDB'],
+    github: 'https://github.com/rickwengdev/Saori',
+    demo: 'https://saori-483222.web.app'
   },
   {
     id: 5,
