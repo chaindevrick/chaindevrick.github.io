@@ -44,11 +44,11 @@ export const blogPosts = [
       <p>拿到第一張卡後，持續使用並按時還款。建議每月使用卡片，並控制使用率在30%以下，以最大化信用分數的提升。</p>
 
       <h3>總結</h3>
-      <p>雖然身為非美國居民申請美國信用卡有一定的挑戰，但透過申請 ITIN 並選擇合適的信用卡，完全可以在美國建立起良好的信用記錄。希望這篇文章能幫助到有需要你們！祝大家申請順利，早日拿到夢想中的美國信用卡！
+      <p>雖然身為非美國居民申請美國信用卡有一定的挑戰，但透過申請 ITIN 並選擇合適的信用卡，完全可以在美國建立起良好的信用記錄。希望這篇文章能幫助到有需要你們！祝大家申請順利，早日拿到夢想中的美國信用卡！</p>
 
-      <img src="/images/posts/1/credit-cards.HEIC" alt="Credit Cards" style="width: 100%; border-radius: 8px; margin-top: 12px;" /></p>
+      <img src="/images/posts/1/credit-cards.jpg" alt="Credit Cards" style="width: 100%;" loading="lazy" />
       
-      <div style="background-color: #63e2b7; padding: 12px; border-radius: 8px; margin-top: 20px;">
+      <div style="background-color: #D3D3D3; padding: 12px; border-radius: 8px; margin-top: 20px;">
         <small>⚠️ 免責聲明：本文純屬經驗分享，不構成稅務或投資建議。相關法規變動頻繁，請自行查核最新資訊。</small>
       </div>
     `
