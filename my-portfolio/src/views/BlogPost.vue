@@ -42,7 +42,7 @@
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { NPageHeader, NButton, NDivider, NTag, NSpace, NResult } from 'naive-ui';
-import { blogPosts } from '../data/posts'; // 引入剛剛建立的資料
+import { blogPosts } from '../data/posts';
 
 const route = useRoute();
 
