@@ -27,7 +27,7 @@
         <n-tab-pane name="Technical" tab="Technical" />
         <n-tab-pane name="Tutorial" tab="Tutorial" />
         <n-tab-pane name="Finance" tab="Finance" />
-        <n-tab-pane name="My Thoughts" tab="My Thoughts" />
+        <n-tab-pane name="Thoughts" tab="Thoughts" />
       </n-tabs>
     </div>
 
@@ -68,7 +68,7 @@
                 <n-tag 
                   v-for="tag in post.tags" 
                   :key="tag" 
-                  :type="getTagType(tag)" 
+                  type="default"
                   size="small" 
                   round 
                   :bordered="false"
@@ -114,18 +114,6 @@ const filteredPosts = computed(() => {
   // 篩選出符合當前分類的文章
   return blogPosts.filter(post => post.category === selectedCategory.value);
 });
-
-// 標籤顏色邏輯
-const getTagType = (tag) => {
-  const map = {
-    'Frontend': 'success',
-    'Backend': 'info',
-    'DevOps': 'warning',
-    'Vue 3': 'success',
-    'Docker': 'info'
-  };
-  return map[tag] || 'default';
-};
 
 const goToPost = (id) => {
   router.push(`/blog/${id}`);

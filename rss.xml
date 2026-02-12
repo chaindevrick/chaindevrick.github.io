@@ -4,7 +4,7 @@
         <title>Rick Weng's Blog</title>
         <link>https://rickwengdev.github.io/</link>
         <description>Full Stack Developer | Tesla Investor | Pro Crypto</description>
-        <lastBuildDate>Thu, 12 Feb 2026 04:06:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 04:33:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <language>en</language>
@@ -91,15 +91,29 @@
       <p>台灣的信用紀錄受損，不代表我在美國也是黑名單。透過申請 <strong>ITIN (個人報稅識別號碼)</strong>，我在美國建立了全新的信用檔案。這不僅僅是為了申請一張 Chase 或 Amex 信用卡來賺取回饋，更重要的是，這讓我在美國擁有了一個獨立的信用身份。</p>
       <p>當我在本地銀行連開戶都被拒絕時，我卻能持有美國信用卡。這張卡片對我來說，是一個獨立於本地體系之外的信用證明。</p>
 
+      <figure style="margin: 30px 0; text-align: center;">
+        <img src="/images/posts/2/capital-one-cards.png" alt="美國信用卡" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" />
+        <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">這些實體卡片，是我取回金融主導權的證明。</figcaption>
+      </figure>
+
       <h4>2. 資金管道的多樣化</h4>
       <p>我學會了使用跨國銀行服務（HSBC Group）與國際券商（IBKR）。這讓我擁有了一個不依賴單一地區法規或經濟狀況的資金池。</p>
       <p>透過這些工具，資金的流動不再受限於單一銀行的臉色。我可以將資產停泊在倫敦或香港，需要時再調度回台，或者直接在海外消費。這種靈活性，是我在警示戶時期最渴望的「自由」，也是台灣帳戶無法做到的。</p>
+      
+      <figure style="margin: 30px 0; text-align: center;">
+        <img src="/images/posts/2/hsbc-group-cards.png" alt="HSBC海外提款卡" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" />
+        <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">這些實體卡片，是我取回金融主導權的證明。</figcaption>
+      </figure>
 
       <h3>「去中心化」的生存邏輯</h3>
       <p>19 歲的現在，警示戶的紀錄已經消除，生活回歸正常。但這段經歷讓我深刻理解了什麼叫做「單點風險」。</p>
       <p>過去我們習慣信任單一的大型機構——單一的銀行、單一的體制。但當你親身體驗過被這個單一系統「斷線」時，你會明白這種依賴有多麽脆弱。只要一個環節出錯，或者一條規則變更，你的生活就會瞬間停擺。</p>
       <p>所以我現在的所有佈局，核心只有一個：<strong>對抗脆弱性</strong>。</p>
       <p>這不是關於加密貨幣，而是關於資產的實質分散。我不希望我的生存能力，完全取決於某一家銀行的審核，或是某一個地區的臉色。當某個帳戶被凍結、某條路被封死時，我必須確保還有備用方案可以無縫接軌。</p>
+
+      <figure style="margin: 30px 0; text-align: center;">
+         <img src="/images/posts/2/global-financial-network.png" alt="全球金融去中心化佈局示意圖" style="max-width: 100%; border-radius: 12px;" />
+      </figure>
 
       <p style="margin-top: 2rem; color: #666; font-size: 0.9em;">
         這不是什麼逆襲的故事，只是一個關於如何在受限的環境中，找回控制權的紀錄。
