@@ -57,7 +57,7 @@ export const blogPosts = [
   {
     id: 2,
     title: '16 歲台灣帳戶被凍結，在體制外重建金融自由',
-    category: 'Finance',
+    category: 'Thoughts',
     date: '2026-02-11',
     emoji: '🌏',
     tags: ['Personal', 'Finance', 'Mindset'],
