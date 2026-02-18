@@ -5,12 +5,12 @@
     <n-layout class="main-layout">
       
       <n-layout-header bordered class="nav-header">
-        <div class="logo" @click="$router.push('/')">Rick Weng</div>
+        <div class="logo" @click="$router.push('/')">Rick</div>
         <div class="nav-links">
           <n-button text @click="$router.push('/')">Home</n-button>
           <n-button text @click="$router.push('/projects')">Projects</n-button>
           <n-button text @click="$router.push('/blog')">Blog</n-button>
-          <n-button tag="a" text href="https://github.com/rickwengdev" target="_blank">
+          <n-button tag="a" text href="https://github.com/chaindevrick" target="_blank">
             GitHub
           </n-button>
         </div>
@@ -21,7 +21,7 @@
       </n-layout-content>
       
       <n-layout-footer bordered class="footer">
-        &copy; {{ new Date().getFullYear() }} Rick Weng. Built with Vue 3 & Naive UI.
+        &copy; {{ new Date().getFullYear() }} Rick. Built with Vue 3 & Naive UI.
       </n-layout-footer>
       
     </n-layout>

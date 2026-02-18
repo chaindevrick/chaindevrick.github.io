@@ -13,8 +13,8 @@
             />
             </div>
 
-          <h1 class="title">Hi, I'm Rick Weng.</h1>
-          <p class="subtitle">Full Stack Developer | Tesla Investor | Pro Crypto</p>
+          <h1 class="title">Hi, I'm Rick.</h1>
+          <p class="subtitle">Software Engineer</p>
           <p class="intro">
             I'm passionate about building scalable web applications and exploring new technologies.
             Welcome to my portfolio where I showcase my projects and skills.
@@ -30,7 +30,7 @@
           </n-space>
 
           <div class="appointment-area">
-            <a href="https://calendar.app.google/9uZbm2csJMrR1p2N6" target="_blank" class="appointment-text">
+            <a href="https://calendar.app.google/rsG6vBBtfhRBfRHc9" target="_blank" class="appointment-text">
               Make an appointment ↗
             </a>
           </div>
@@ -50,12 +50,10 @@ import avatarImage from '../assets/avatar.jpg';
 .home-container {
   max-width: 1000px;
   margin: 0 auto;
-  /* 稍微調整上邊距，讓整體垂直置中感更好 */
   padding: 60px 20px; 
   text-align: center;
 }
 
-/* 新增：頭像樣式 */
 .avatar-container {
   margin-bottom: 24px;
 }
