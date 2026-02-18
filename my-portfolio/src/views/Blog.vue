@@ -35,7 +35,7 @@
 
     <div class="content-section">
       <n-list hoverable clickable bordered>
-        <n-list-item v-for="post in filteredPosts" :key="post.id" @click="goToPost(post.id)">
+        <n-list-item v-for="post in blogPosts" :key="post.id" @click="goToPost(post.id)">
           
           <template #prefix>
             <div class="emoji-icon">{{ post.emoji }}</div>
@@ -53,18 +53,6 @@
             <template #description>
               <n-space size="small" style="margin-top: 4px; align-items: center;">
                 
-                <n-tag 
-                  v-if="post.category" 
-                  type="primary" 
-                  size="small" 
-                  :bordered="false" 
-                  class="category-tag"
-                >
-                  {{ post.category }}
-                </n-tag>
-                
-                <n-divider vertical v-if="post.category" />
-
                 <n-tag 
                   v-for="tag in post.tags" 
                   :key="tag" 
@@ -103,17 +91,6 @@ import { blogPosts } from '../data/posts';
 
 const router = useRouter();
 
-// 分類狀態
-const selectedCategory = ref('All');
-
-// 篩選邏輯
-const filteredPosts = computed(() => {
-  if (selectedCategory.value === 'All') {
-    return blogPosts;
-  }
-  // 篩選出符合當前分類的文章
-  return blogPosts.filter(post => post.category === selectedCategory.value);
-});
 
 const goToPost = (id) => {
   router.push(`/blog/${id}`);
