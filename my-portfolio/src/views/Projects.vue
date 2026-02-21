@@ -77,8 +77,8 @@ const projects = ref([
     status: 'Live',
     statusType: 'success',
     stack: ['Vue 3', 'Vite', 'Naive UI'],
-    github: 'https://github.com/rickwengdev/rickwengdev.github.io/tree/main/my-portfolio',
-    demo: 'https://rickwengdev.github.io'
+    github: 'https://github.com/chaindevrick/chaindevrick.github.io',
+    demo: 'https://chaindevrick.github.io'
   },
   {
     id: 2,
@@ -89,7 +89,7 @@ const projects = ref([
     status: 'Dev',
     statusType: 'warning',
     stack: ['Vue 3', 'Node.js', 'Gemini API', 'AI Agent', 'RAG'],
-    github: 'https://github.com/rickwengdev/Lilith',
+    github: 'https://github.com/chaindevrick/Lilith',
     demo: 'https://lilith-390477456083.asia-east1.run.app'
   },
   {
@@ -101,8 +101,8 @@ const projects = ref([
     status: 'Live',
     statusType: 'success',
     stack: ['Vue 3', 'Node.js', 'GCP', 'Actions'],
-    github: 'https://github.com/rickwengdev/CryptoTracker',
-    demo: 'https://crypto-tracker-873140096556.asia-east1.run.app'
+    github: 'https://github.com/chaindevrick/Crypto-Portfolio-Tracker',
+    demo: 'https://crypto-tracker-441067340318.us-central1.run.app'
   },
   {
     id: 4,
@@ -113,7 +113,7 @@ const projects = ref([
     status: 'Live',
     statusType: 'success',
     stack: ['Vue 3', 'Node.js', 'Discord.js', 'MariaDB', 'GCP', 'Actions'],
-    github: 'https://github.com/rickwengdev/Saori',
+    github: 'https://github.com/chaindevrick/Saori',
     demo: 'https://saori-5b7da.web.app'
   },
   {
@@ -125,7 +125,7 @@ const projects = ref([
     status: 'Completed',
     statusType: 'default',
     stack: ['Python', 'Automation'],
-    github: 'https://github.com/rickwengdev/autoscreenshot'
+    github: 'https://github.com/chaindevrick/autoscreenshot'
   },
 ]);
 
