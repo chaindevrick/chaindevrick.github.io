@@ -2,19 +2,19 @@ export default {
   meta: {
     title: 'Rick — Model Lab',
     description:
-      'Rick 反向拆解金融、科技與組織。Kura Finance 與 Prism Capital 創辦人。Model Lab 公開研究模型——分享模型，而非觀點。',
+      'Rick 反向拆解金融、科技與組織。Saturn Technology、Prism Capital 與 Kura Finance 創辦人。Model Lab 公開研究模型——分享模型，而非觀點。',
   },
   seo: {
     home: {
       title: 'Rick — Model Lab',
       description:
-        'Rick 反向拆解金融、科技與組織。Kura Finance 與 Prism Capital 創辦人。Model Lab 公開研究模型——分享模型，而非觀點。',
-      keywords: ['Rick', 'Model Lab', 'Kura Finance', 'Prism Capital', '創辦人', '自託管', '資本效率', '全球金融身份', '資產架構', 'Buy Borrow Die', '思考框架', 'rickwengdev'],
+        'Rick 反向拆解金融、科技與組織。Saturn Technology、Prism Capital 與 Kura Finance 創辦人。Model Lab 公開研究模型——分享模型，而非觀點。',
+      keywords: ['Rick', 'Model Lab', 'Saturn Technology', 'Kura Finance', 'Prism Capital', '創辦人', '自託管', '資本效率', '全球金融身份', '資產架構', 'Buy Borrow Die', '思考框架', 'rickwengdev'],
     },
     experience: {
       title: '企業 — Rick',
-      description: 'Kura Finance（面向世界的自託管金融帳戶）與 Prism Capital 創辦人——現代金融與前沿的自有資本。',
-      keywords: ['企業', 'Kura Finance', 'Prism Capital', '創辦人', '自託管', '家族辦公室'],
+      description: 'Saturn Technology（為真實企業打造自主代理）、Prism Capital 與 Kura Finance 創辦人。',
+      keywords: ['企業', 'Saturn Technology', 'Kura Finance', 'Prism Capital', '創辦人', '自託管', '家族辦公室'],
     },
     blog: {
       title: 'Model Lab — Rick',
@@ -52,9 +52,9 @@ export default {
       mission:
         '建立公司。\n記錄模型。\n公開學習。',
       buildingPrefix: '目前在打造 ',
-      buildingLink: 'Kura Finance',
-      buildingSuffix: ' — 面向世界的自託管金融帳戶。',
-      buildingUrl: 'https://kura-finance.com',
+      buildingLink: 'Saturn Technology',
+      buildingSuffix: ' — 為真實企業打造自主代理。',
+      buildingUrl: 'https://saturn-technology-project.github.io',
       exploreModels: '探索 Model Lab',
       contact: '聯絡我',
       schedule: '預約對談 ↗',
@@ -88,11 +88,12 @@ export default {
     projects: {
       eyebrow: '企業',
       title: '我建立的公司。',
-      subtitle: '創辦人領導的企業——現代金融與前沿的自有資本。',
+      subtitle: '創辦人領導的企業——自主代理、創業工作室與現代金融。',
       seeAll: '查看企業 →',
       entities: [
+        { code: 'ST', name: 'Saturn Technology', desc: '為真實企業打造自主代理。', url: 'https://saturn-technology-project.github.io' },
+        { code: 'PC', name: 'Prism Capital LLC', desc: '投資與創業工作室。', url: 'https://theprism.ltd' },
         { code: 'KF', name: 'Kura Finance LLC', desc: '現代金融，重新設計。', url: 'https://kura-finance.com' },
-        { code: 'PC', name: 'Prism Capital LLC', desc: '前沿的資本。', url: 'https://theprism.ltd' },
       ],
     },
     cta: {
@@ -105,11 +106,21 @@ export default {
   experiencePage: {
     eyebrow: '企業',
     title: '我領導的企業。',
-    subtitle: '兩家企業的企業家——現代金融與前沿的自有資本。',
+    subtitle: '三家企業的企業家——自主代理、創業工作室與現代金融。',
     role: 'Founder & CEO',
-    period: '2026 – 至今',
     jobs: {
+      saturn: {
+        period: '2026/9 – 至今',
+        summary: '科技公司——為真實企業營運打造自主代理。',
+        highlights: [
+          '創立並主導在真實商業環境中運作的自主代理產品願景。',
+          '在工作流自動化、決策系統與人機協作領域定義代理架構。',
+          '打造並交付可整合既有商業工具與流程的代理產品。',
+          '以可上線、實用導向的代理系統推動產品設計與上市。',
+        ],
+      },
       kura: {
+        period: '2026 – 2026/9',
         summary: '現代金融平台——一個帳戶完成儲蓄、消費、投資、增值與全球轉帳。',
         highlights: [
           '創立並主導統一全球金融平台的產品願景。',
@@ -119,11 +130,12 @@ export default {
         ],
       },
       prism: {
-        summary: '封閉型合夥，向科技前沿的營運者部署自有資本。',
+        period: '2026 – 至今',
+        summary: '投資公司與創業工作室——部署自有資本，並在科技前沿創建與孵化企業。',
         highlights: [
-          '創立 Wyoming Close LLC，以數十年視野部署自有資本。',
-          '在可編程資本、主權算力與前沿協議領域設定投資使命。',
-          '與前沿營運者保持創辦人直接互動。',
+          '創立 Wyoming Close LLC，以投資公司與創業工作室模式、數十年視野運作。',
+          '在可編程資本、主權算力與前沿協議領域，同時投資與共同創建新創。',
+          '與前沿營運者保持創辦人直接互動——投資營運者，也孵化新公司。',
           '建立機構品牌、數位存在與關聯實體結構。',
         ],
       },

@@ -26,22 +26,22 @@ const STATIC_PAGES = [
     path: '/',
     title: 'Rick — Model Lab',
     description:
-      'Rick reverse engineers finance, technology, and organizations. Founder of Kura Finance & Prism Capital. Model Lab — sharing models, not opinions.',
+      'Rick reverse engineers finance, technology, and organizations. Founder of Saturn Technology, Prism Capital & Kura Finance. Model Lab — sharing models, not opinions.',
     geoSummary: SITE_GEO_SUMMARY,
-    keywords: ['Rick', 'Model Lab', 'Kura Finance', 'Prism Capital', 'Founder', 'Self-custody', 'Capital Efficiency', 'Global Financial Identity', 'Asset Structuring', 'Buy Borrow Die', 'Thinking Framework'],
+    keywords: ['Rick', 'Model Lab', 'Saturn Technology', 'Kura Finance', 'Prism Capital', 'Founder', 'Self-custody', 'Capital Efficiency', 'Global Financial Identity', 'Asset Structuring', 'Buy Borrow Die', 'Thinking Framework'],
     jsonLd: wrapJsonLd([
       buildWebsiteJsonLd(SITE_DESCRIPTION),
       buildPersonJsonLd(),
     ]),
-    body: `<h1>Rick</h1><p>${escapeHtml(SITE_DESCRIPTION)}</p><p>${escapeHtml(SITE_GEO_SUMMARY)}</p><p>Currently building <a href="https://kura-finance.com">Kura Finance</a>.</p><p>Explore <a href="${pageUrl('/blog')}">Model Lab</a>.</p>`,
+    body: `<h1>Rick</h1><p>${escapeHtml(SITE_DESCRIPTION)}</p><p>${escapeHtml(SITE_GEO_SUMMARY)}</p><p>Currently building <a href="https://saturn-technology-project.github.io">Saturn Technology</a>.</p><p>Explore <a href="${pageUrl('/blog')}">Model Lab</a>.</p>`,
   },
   {
     dir: 'experience',
     path: '/experience',
     title: 'Companies — Rick',
     description:
-      'Founder & CEO of Kura Finance (self-custody financial account for the world) and Prism Capital — modern finance and proprietary capital at the frontier.',
-    keywords: ['Companies', 'Kura Finance', 'Prism Capital', 'Founder', 'Self-custody'],
+      'Founder & CEO of Saturn Technology (autonomous agents for real business), Prism Capital, and Kura Finance.',
+    keywords: ['Companies', 'Saturn Technology', 'Kura Finance', 'Prism Capital', 'Founder', 'Self-custody'],
     jsonLd: wrapJsonLd([
       buildPersonJsonLd(),
       buildBreadcrumbJsonLd([
@@ -49,7 +49,7 @@ const STATIC_PAGES = [
         { name: 'Companies', path: '/experience' },
       ]),
     ]),
-    body: `<h1>Companies</h1><p>Founder & CEO of <a href="https://kura-finance.com">Kura Finance</a> and <a href="https://theprism.ltd">Prism Capital</a>.</p>`,
+    body: `<h1>Companies</h1><p>Founder & CEO of <a href="https://saturn-technology-project.github.io">Saturn Technology</a>, <a href="https://theprism.ltd">Prism Capital</a>, and <a href="https://kura-finance.com">Kura Finance</a>.</p>`,
   },
   {
     dir: 'blog',

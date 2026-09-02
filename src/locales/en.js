@@ -2,16 +2,17 @@ export default {
   meta: {
     title: 'Rick — Model Lab',
     description:
-      'Rick reverse engineers finance, technology, and organizations. Founder of Kura Finance & Prism Capital. Model Lab — sharing models, not opinions.',
+      'Rick reverse engineers finance, technology, and organizations. Founder of Saturn Technology, Prism Capital & Kura Finance. Model Lab — sharing models, not opinions.',
   },
   seo: {
     home: {
       title: 'Rick — Model Lab',
       description:
-        'Rick reverse engineers finance, technology, and organizations. Founder of Kura Finance & Prism Capital. Model Lab — sharing models, not opinions.',
+        'Rick reverse engineers finance, technology, and organizations. Founder of Saturn Technology, Prism Capital & Kura Finance. Model Lab — sharing models, not opinions.',
       keywords: [
         'Rick',
         'Model Lab',
+        'Saturn Technology',
         'Kura Finance',
         'Prism Capital',
         'Founder',
@@ -27,8 +28,8 @@ export default {
     experience: {
       title: 'Companies — Rick',
       description:
-        'Founder & CEO of Kura Finance (self-custody financial account for the world) and Prism Capital — modern finance and proprietary capital at the frontier.',
-      keywords: ['Companies', 'Kura Finance', 'Prism Capital', 'Founder', 'Self-custody', 'Family Office'],
+        'Founder & CEO of Saturn Technology (autonomous agents for real business), Prism Capital, and Kura Finance.',
+      keywords: ['Companies', 'Saturn Technology', 'Kura Finance', 'Prism Capital', 'Founder', 'Self-custody'],
     },
     blog: {
       title: 'Model Lab — Rick',
@@ -67,9 +68,9 @@ export default {
       mission:
         'Building companies.\nDocumenting models.\nLearning in public.',
       buildingPrefix: 'Currently building ',
-      buildingLink: 'Kura Finance',
-      buildingSuffix: ' — self-custody financial account for the world.',
-      buildingUrl: 'https://kura-finance.com',
+      buildingLink: 'Saturn Technology',
+      buildingSuffix: ' — autonomous agents for real business.',
+      buildingUrl: 'https://saturn-technology-project.github.io',
       exploreModels: 'Explore Model Lab',
       contact: 'Get in Touch',
       schedule: 'Schedule a conversation ↗',
@@ -103,11 +104,12 @@ export default {
     projects: {
       eyebrow: 'Companies',
       title: 'Companies I build.',
-      subtitle: 'Founder-led enterprises — modern finance and proprietary capital at the frontier.',
+      subtitle: 'Founder-led enterprises — autonomous agents, venture studio, and modern finance.',
       seeAll: 'View companies →',
       entities: [
+        { code: 'ST', name: 'Saturn Technology', desc: 'Autonomous agents for real business.', url: 'https://saturn-technology-project.github.io' },
+        { code: 'PC', name: 'Prism Capital LLC', desc: 'Investment & venture studio.', url: 'https://theprism.ltd' },
         { code: 'KF', name: 'Kura Finance LLC', desc: 'Modern finance, redesigned.', url: 'https://kura-finance.com' },
-        { code: 'PC', name: 'Prism Capital LLC', desc: 'Capital at the frontier.', url: 'https://theprism.ltd' },
       ],
     },
     cta: {
@@ -121,11 +123,22 @@ export default {
     eyebrow: 'Companies',
     title: 'Companies I lead.',
     subtitle:
-      'Entrepreneur behind two enterprises — modern finance and proprietary capital at the technological frontier.',
+      'Entrepreneur behind three enterprises — autonomous agents, venture studio, and modern finance.',
     role: 'Founder & CEO',
-    period: '2026 – Present',
     jobs: {
+      saturn: {
+        period: 'Sep 2026 – Present',
+        summary:
+          'Technology company building autonomous agents for real business operations.',
+        highlights: [
+          'Founded and lead product vision for autonomous agents that operate in real business environments.',
+          'Define agent architecture across workflow automation, decision systems, and human-in-the-loop design.',
+          'Build and ship agent products that integrate with existing business tools and processes.',
+          'Drive product design and go-to-market with practical, production-grade agent systems.',
+        ],
+      },
       kura: {
+        period: '2026 – Sep 2026',
         summary:
           'Modern finance platform — one account to save, spend, invest, earn, and move money globally.',
         highlights: [
@@ -136,12 +149,13 @@ export default {
         ],
       },
       prism: {
+        period: '2026 – Present',
         summary:
-          'Closed partnership deploying proprietary capital to operators at the technological frontier.',
+          'Investment firm and venture studio — deploying proprietary capital and building companies at the technological frontier.',
         highlights: [
-          'Founded a Wyoming Close LLC deploying proprietary capital with a multi-decade horizon.',
-          'Set investment mandate across programmable capital, sovereign compute, and frontier protocols.',
-          'Lead founder-direct engagement with operators at the technological frontier.',
+          'Founded a Wyoming Close LLC as an investment firm and venture studio with a multi-decade horizon.',
+          'Deploy capital and co-build ventures across programmable capital, sovereign compute, and frontier protocols.',
+          'Lead founder-direct engagement — investing in operators and incubating new companies at the frontier.',
           "Built the firm's institutional brand, digital presence, and affiliated entity structure.",
         ],
       },

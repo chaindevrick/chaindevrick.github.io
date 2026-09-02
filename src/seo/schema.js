@@ -4,10 +4,11 @@ export const DEFAULT_IMAGE = `${SITE_URL}/avatar.jpg`;
 export const SITE_DESCRIPTION =
   'I reverse engineer finance, technology, and organizations. Sharing models, not opinions.';
 export const SITE_GEO_SUMMARY =
-  'Rick is Founder & CEO of Kura Finance (self-custody financial account for the world) and Prism Capital. He publishes Model Lab — experimental research models on finance, systems, technology, and organizations, each with explicit assumptions, model status, and failure cases.';
+  'Rick is Founder & CEO of Saturn Technology (autonomous agents for real business), Prism Capital, and Kura Finance. He publishes Model Lab — experimental research models on finance, systems, technology, and organizations, each with explicit assumptions, model status, and failure cases.';
 export const COMPANIES = [
+  { name: 'Saturn Technology', url: 'https://saturn-technology-project.github.io', role: 'Autonomous agents for real business' },
   { name: 'Kura Finance LLC', url: 'https://kura-finance.com', role: 'Self-custody financial account for the world' },
-  { name: 'Prism Capital LLC', url: 'https://theprism.ltd', role: 'Proprietary capital at the technological frontier' },
+  { name: 'Prism Capital LLC', url: 'https://theprism.ltd', role: 'Investment firm and venture studio at the technological frontier' },
 ];
 export const RESEARCH_TOPICS = [
   'Capital Allocation',
