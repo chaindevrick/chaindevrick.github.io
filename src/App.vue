@@ -65,7 +65,7 @@
         <div class="footer-inner marketing-container">
           <p class="footer-desc">{{ t('footer.desc') }}</p>
           <div class="footer-bottom">
-            <span>&copy; {{ new Date().getFullYear() }} Rick</span>
+            <span>&copy; {{ new Date().getFullYear() }} {{ AUTHOR.legalName }}</span>
             <div class="footer-links">
               <a href="https://github.com/rickwengdev" target="_blank">{{ t('nav.github') }}</a>
               <a href="mailto:office@theprism.ltd">{{ t('footer.email') }}</a>
@@ -82,7 +82,7 @@
 import { ref, watch } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import { NConfigProvider, NGlobalStyle, NLayout, NLayoutHeader, NLayoutContent, NLayoutFooter, NButton, lightTheme } from 'naive-ui';
-import LanguageSwitcher from './components/LanguageSwitcher.vue';
+import { AUTHOR } from './seo/schema.js';
 import { useI18n } from './i18n';
 
 const router = useRouter();

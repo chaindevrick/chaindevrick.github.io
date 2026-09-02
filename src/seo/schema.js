@@ -18,6 +18,7 @@ export const RESEARCH_TOPICS = [
 ];
 export const AUTHOR = {
   name: 'Rick',
+  legalName: 'Rick Weng',
   url: SITE_URL,
   email: 'office@theprism.ltd',
   jobTitle: 'Founder & CEO',
@@ -74,7 +75,7 @@ export function buildPersonJsonLd(description = SITE_GEO_SUMMARY) {
   return {
     '@type': 'Person',
     '@id': `${SITE_URL}/#person`,
-    name: AUTHOR.name,
+    name: AUTHOR.legalName,
     url: AUTHOR.url,
     email: AUTHOR.email,
     jobTitle: AUTHOR.jobTitle,
@@ -244,7 +245,7 @@ export function buildHeadTags({ title, description, path, type = 'website', imag
     `<title>${escapeHtml(title)}</title>`,
     `<meta name="description" content="${escapeHtml(description)}" />`,
     `<meta name="robots" content="${robots}" />`,
-    `<meta name="author" content="${AUTHOR.name}" />`,
+    `<meta name="author" content="${AUTHOR.legalName}" />`,
     keywordContent ? `<meta name="keywords" content="${escapeHtml(keywordContent)}" />` : '',
     `<link rel="canonical" href="${url}" />`,
     ...buildHreflangTags(path),
@@ -269,7 +270,7 @@ export function buildHeadTags({ title, description, path, type = 'website', imag
     if (article.modifiedTime) {
       tags.push(`<meta property="article:modified_time" content="${toIsoDate(article.modifiedTime)}" />`);
     }
-    tags.push(`<meta property="article:author" content="${AUTHOR.name}" />`);
+    tags.push(`<meta property="article:author" content="${AUTHOR.legalName}" />`);
     if (article.section) {
       tags.push(`<meta property="article:section" content="${escapeHtml(article.section)}" />`);
     }

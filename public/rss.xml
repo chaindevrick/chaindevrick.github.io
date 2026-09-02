@@ -3,8 +3,8 @@
     <channel>
         <title>Rick — Model Lab</title>
         <link>https://rickwengdev.github.io</link>
-        <description>Rick is Founder &amp; CEO of Kura Finance (self-custody financial account for the world) and Prism Capital. He publishes Model Lab — experimental research models on finance, systems, technology, and organizations, each with explicit assumptions, model status, and failure cases.</description>
-        <lastBuildDate>Fri, 03 Jul 2026 09:54:05 GMT</lastBuildDate>
+        <description>Rick is Founder &amp; CEO of Saturn Technology (autonomous agents for real business), Prism Capital, and Kura Finance. He publishes Model Lab — experimental research models on finance, systems, technology, and organizations, each with explicit assumptions, model status, and failure cases.</description>
+        <lastBuildDate>Wed, 02 Sep 2026 02:09:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <language>en</language>
@@ -13,7 +13,7 @@
             <url>https://rickwengdev.github.io/avatar.jpg</url>
             <link>https://rickwengdev.github.io</link>
         </image>
-        <copyright>All rights reserved 2026, Rick</copyright>
+        <copyright>All rights reserved 2026, Rick Weng</copyright>
         <item>
             <title><![CDATA[Model Lab #000 — Thinking Framework]]></title>
             <link>https://rickwengdev.github.io/blog/3</link>
@@ -198,7 +198,7 @@
 <blockquote>
   <p><strong>Signed:</strong> Rick — Author / Maintainer<br />Date: 2026-07-03</p>
 </blockquote>]]></content:encoded>
-            <author>office@theprism.ltd (Rick)</author>
+            <author>office@theprism.ltd (Rick Weng)</author>
         </item>
         <item>
             <title><![CDATA[Model Lab #003 — Why Do the Wealthy Hold Assets Through Companies? The Real Reason Is Not Just Tax]]></title>
@@ -354,7 +354,7 @@
 <hr />
 
 <p><em>Model Lab is an ongoing research series. I do not share conclusions. I publish models still in evolution.</em></p>]]></content:encoded>
-            <author>office@theprism.ltd (Rick)</author>
+            <author>office@theprism.ltd (Rick Weng)</author>
         </item>
         <item>
             <title><![CDATA[Model Lab #002 — Buy, Borrow, Die Is Not Just for the Rich. It Is a Capital Efficiency Case Study]]></title>
@@ -588,7 +588,7 @@
 <hr />
 
 <p><em>Model Lab is an ongoing research series. Every model has versions, assumptions, and failure conditions. Found a hole? Email me and tear it down.</em></p>]]></content:encoded>
-            <author>office@theprism.ltd (Rick)</author>
+            <author>office@theprism.ltd (Rick Weng)</author>
         </item>
         <item>
             <title><![CDATA[Model Lab #001 — I Did Not Just Build a U.S. Credit Card. I Built a Global Financial Identity]]></title>
@@ -733,7 +733,7 @@
 <hr />
 
 <p><em>Model Lab is an ongoing research series. Each article is just one case study of a model in evolution.</em></p>]]></content:encoded>
-            <author>office@theprism.ltd (Rick)</author>
+            <author>office@theprism.ltd (Rick Weng)</author>
         </item>
     </channel>
 </rss>

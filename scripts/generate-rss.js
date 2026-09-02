@@ -1,12 +1,12 @@
 import fs from 'fs';
 import { Feed } from 'feed';
 import { blogPosts } from '../src/data/posts/index.js';
-import { SITE_DESCRIPTION, SITE_GEO_SUMMARY, SITE_URL } from '../src/seo/schema.js';
+import { AUTHOR, SITE_DESCRIPTION, SITE_GEO_SUMMARY, SITE_URL } from '../src/seo/schema.js';
 
 const siteUrl = SITE_URL;
 const author = {
-  name: 'Rick',
-  email: 'office@theprism.ltd',
+  name: AUTHOR.legalName,
+  email: AUTHOR.email,
   link: siteUrl,
 };
 
@@ -18,7 +18,7 @@ const feed = new Feed({
   language: "en",
   image: `${siteUrl}/avatar.jpg`, // 你的大頭貼
   favicon: `${siteUrl}/favicon.ico`,
-  copyright: `All rights reserved ${new Date().getFullYear()}, Rick`,
+  copyright: `All rights reserved ${new Date().getFullYear()}, ${AUTHOR.legalName}`,
   updated: new Date(),
   generator: "Feed for Node.js",
   feedLinks: {

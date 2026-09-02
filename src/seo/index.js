@@ -1,6 +1,7 @@
 import { getBlogPosts } from '../data/posts/index.js';
 import { tm } from '../i18n/index.js';
 import {
+  AUTHOR,
   SITE_URL,
   SITE_NAME,
   DEFAULT_IMAGE,
@@ -120,7 +121,7 @@ export function applySeo({
   if (article) {
     upsertMeta('property', 'article:published_time', article.publishedTime);
     upsertMeta('property', 'article:modified_time', article.modifiedTime ?? article.publishedTime);
-    upsertMeta('property', 'article:author', article.author ?? 'Rick');
+    upsertMeta('property', 'article:author', article.author ?? AUTHOR.legalName);
     if (article.section) upsertMeta('property', 'article:section', article.section);
     document.querySelectorAll('meta[property="article:tag"]').forEach((el) => el.remove());
     for (const tag of article.tags ?? []) {
